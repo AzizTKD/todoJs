@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: 40px;
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: 50px;
+    /* font-weight: 400; */
+    text-align: center;
+    border-radius: 20px;
+    border: 2px black solid;
+    background-color: aqua !important;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    background-color: paleturquoise;
+    border: 1px solid black;
+    width: 80%;
+    padding: 30px;
+    border-radius: 20px;
+    background-image: url(./photo-1644329843491-99edfc83de04.jpeg);
+    background-size: cover;
+}
+
+.addBtn {
+    color: black;
+    background-color: rgb(163, 176, 208);
+    border: 1px solid brown;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.deleteallBtn {
+    color: black;
+    background-color: rgb(212, 79, 79);
+    border: 1px solid brown;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.main-container input {
+    width: 100%;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.editBtn {
+    color: black;
+    background-color: rgb(137, 183, 203);
+    /* border: 1px solid brown; */
+    border-radius: 10px;
+    padding: 5px;
+    /* margin: 5px; */
+}
+
+.deleteBtn {
+    color: black;
+    background-color: rgb(144, 88, 88);
+    /* border: 1px solid brown; */
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px 5px;
+}
+
+.listElements {
+    list-style-type: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+}
